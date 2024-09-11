@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : AMA
+Version: T-2022.03-SP5
+Date   : Mon Jun 17 17:45:20 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: A non-unate path in clock network for clock 'clk' from pin 'U4/ZN' is detected. (TIM-052)
+Warning: A non-unate path in clock network for clock 'clk' from pin 'U4/ZN' is detected. (TIM-052)
+Library(s) Used:
+
+    tcbn28hpcplusbwp12t30p140ssg0p72v0c (File: /home/mukul/Downloads/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn28hpcplusbwp12t30p140_180a/tcbn28hpcplusbwp12t30p140ssg0p72v0c.db)
+
+Number of ports:                            5
+Number of nets:                             7
+Number of cells:                            4
+Number of combinational cells:              2
+Number of sequential cells:                 2
+Number of macros/black boxes:               0
+Number of buf/inv:                          0
+Number of references:                       3
+
+Combinational area:                  1.512000
+Buf/Inv area:                        0.000000
+Noncombinational area:               5.040000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                     6.552000
+Total area:                 undefined

@@ -1,0 +1,57 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : AMA
+Version: T-2022.03-SP5
+Date   : Mon Jun 17 17:45:39 2024
+****************************************
+
+
+Library(s) Used:
+
+    tcbn28hpcplusbwp12t30p140ssg0p72v0c (File: /home/mukul/Downloads/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn28hpcplusbwp12t30p140_180a/tcbn28hpcplusbwp12t30p140ssg0p72v0c.db)
+
+
+Operating Conditions: ssg0p72v0c   Library: tcbn28hpcplusbwp12t30p140ssg0p72v0c
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+AMA                    ZeroWireload      tcbn28hpcplusbwp12t30p140ssg0p72v0c
+
+
+Global Operating Voltage = 0.72 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 740.7620 nW   (92%)
+  Net Switching Power  =  66.4364 nW    (8%)
+                         ---------
+Total Dynamic Power    = 807.1985 nW  (100%)
+
+Cell Leakage Power     =   2.2838 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network  6.3472e-04        6.6411e-05            0.4998        7.0163e-04  (  86.68%)  i
+register       1.0604e-04            0.0000            1.7840        1.0785e-04  (  13.32%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+--------------------------------------------------------------------------------------------------
+Total          7.4076e-04 mW     6.6436e-05 mW         2.2838 nW     8.0948e-04 mW
